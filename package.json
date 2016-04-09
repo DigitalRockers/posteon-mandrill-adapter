@@ -1,0 +1,37 @@
+{
+  "name": "posteon-mandrill-adapter",
+  "description": "Mandrill adapter for Posteon",
+  "version": "0.1.1",
+  "keywords": [
+    "mandrill",
+    "api",
+    "mailer",
+    "adapter",
+    "posteon"
+  ],
+  "bugs": {
+    "url": "https://github.com/DigitalRockers/posteon-mandrill-adapter/issues"
+  },
+  "license": "MIT",
+  "author": "Gianluca Pengo (https://github.com/gian788/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalRockers/posteon-mandrill-adapter.git"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "dependencies": {
+    "lodash": "~4.7.0",
+    "mandrill-api": "^1.0.41"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "homepage": "https://github.com/DigitalRockers/posteon-mandrill-adapter#readme"
+}
